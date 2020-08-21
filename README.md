@@ -60,5 +60,5 @@ Each definition class should have the following components:
 
 
 
-Since this is the first assignment, feel free to add as much methods as you can, just remember the naming conventions 
+Since this is the first assignment, feel free to add as many methods as you can, just remember the naming conventions 
 of a field, and a method; the name of a field should be a noun, and the name of a method should be a verb!
