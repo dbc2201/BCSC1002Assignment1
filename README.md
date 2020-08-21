@@ -58,7 +58,8 @@ Each definition class should have the following components:
 4. FrontDesk
    1. a field to store the details of the student currently interacting with the system (Student).
 
-
+It is completely alright if you cannot implement the actual code for the methods, you can simple write a print 
+statement to represent that the methods are working, just like in the `Video Rental Inventory System` project.
 
 Since this is the first assignment, feel free to add as many methods as you can, just remember the naming conventions 
 of a field, and a method; the name of a field should be a noun, and the name of a method should be a verb!
