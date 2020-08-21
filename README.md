@@ -39,19 +39,19 @@ Allow the `Student` type to interact with the `FrontDesk` interface and perform 
 Here are the details of the classes that need to be implemented:
 
 1. Book
-   1. a variable to store the name of the book (String).
-   2. a variable to store the name of the author of the book (String).
-   3. a variable to store the 13-digit ISBN number of the book (String).
+   1. a field to store the name of the book (String).
+   2. a field to store the name of the author of the book (String).
+   3. a field to store the 13-digit ISBN number of the book (String).
 2. Student
-   1. a variable to store the name of the student (first name, middle name, last name- all String).
-   2. a variable to store the university roll number of the student (long).
-   3. a variable to store the number of books issued by the student (int).
-   4. a variable to store all the names of the books issued by the student (Book[]).
+   1. a field to store the name of the student (first name, middle name, last name- all String).
+   2. a field to store the university roll number of the student (long).
+   3. a field to store the number of books issued by the student (int).
+   4. a field to store all the names of the books issued by the student (Book[]).
 3. Library
-   1. a variable to store all the books that are currently available (Book[]).
+   1. a field to store all the books that are currently available (Book[]).
 4. FrontDesk
-   1. a variable to store the details of the student currently interacting with the system (Student).
+   1. a field to store the details of the student currently interacting with the system (Student).
 
 
 
-Since this is the first assignment, feel free to add as much methods as you can, just remember the naming conventions of a variable and a method; the name of a variable should be a noun, and the name of a method should be a verb!
+Since this is the first assignment, feel free to add as much methods as you can, just remember the naming conventions of a field and a method; the name of a field should be a noun, and the name of a method should be a verb!
