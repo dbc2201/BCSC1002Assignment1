@@ -37,6 +37,12 @@ How may I help you today?
 Allow the `Student` type to interact with the `FrontDesk` interface and perform simple operations.
 
 Here are the details of the classes that need to be implemented:
+Each definition class should have the following components:
+1. private fields
+2. getters and setters for the private fields
+3. constructors (at least 1 or more) to initialize the private fields
+4. the toString() method
+5. the equals() and the hashCode() method 
 
 1. Book
    1. a field to store the name of the book (String).
