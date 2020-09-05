@@ -61,4 +61,14 @@ public class Book {
     public int hashCode() {
         return Objects.hash(getName(), getAuthorName(), getIsbn());
     }
+
+    @Override
+    public String toString() {
+        return String.format(
+                "Book Name: '%s'.\n" +
+                        "Author Name: '%s'.\n" +
+                        "ISBN Number: '%s'.",
+                this.getName(), this.getAuthorName(), this.getIsbn()
+        );
+    }
 }
