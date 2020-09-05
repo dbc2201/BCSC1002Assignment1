@@ -12,6 +12,11 @@ public class Library {
     private static final int DEFAULT_NUMBER_OF_BOOKS = 1000;
     private Book[] books;
 
+    public void issueBook(long isbn) {
+        System.out.println("Thank you, this book is now issued to you!");
+        System.out.println("Happy Learning!");
+    }
+
     public Library() {
         books = new Book[DEFAULT_NUMBER_OF_BOOKS];
         for (int i = 0, booksLength = books.length; i < booksLength; i++) {
