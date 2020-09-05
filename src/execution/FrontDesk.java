@@ -45,6 +45,7 @@ public class FrontDesk {
                 case ISSUE_NEW_BOOK:
                     System.out.println("Enter the isbn number of the book you want to issue: ");
                     long isbn = scanner.nextLong();
+                    library.issueBook(isbn);
                     break;
                 case RETURN_A_BOOK:
                     break;
