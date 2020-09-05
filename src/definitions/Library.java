@@ -62,4 +62,8 @@ public class Library {
         }
         return bookList.toString();
     }
+
+    public void returnBook(long isbn) {
+        System.out.println("Thank you for returning this book.");
+    }
 }

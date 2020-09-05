@@ -21,6 +21,7 @@ public class FrontDesk {
 
     public static void main(String[] args) {
         int studentChoice;
+        long isbn;
         Library library = new Library();
         do {
             System.out.println("-=-=--=-=-\"Welcome To The Front Desk\"-=-=--=-=-");
@@ -44,10 +45,13 @@ public class FrontDesk {
             switch (studentChoice) {
                 case ISSUE_NEW_BOOK:
                     System.out.println("Enter the isbn number of the book you want to issue: ");
-                    long isbn = scanner.nextLong();
+                    isbn = scanner.nextLong();
                     library.issueBook(isbn);
                     break;
                 case RETURN_A_BOOK:
+                    System.out.println("Enter the isbn number of the book you want to return: ");
+                    isbn = scanner.nextLong();
+                    library.returnBook(isbn);
                     break;
                 case SHOW_MY_ISSUED_BOOKS:
                     System.out.println(Arrays.toString(currentStudent.getIssuedBooks()));
