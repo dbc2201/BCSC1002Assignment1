@@ -26,6 +26,16 @@ public class FrontDesk {
             System.out.println("4. Exit.");
             final Scanner scanner = new Scanner(System.in);
             studentChoice = scanner.nextInt();
+            switch (studentChoice) {
+                case ISSUE_NEW_BOOK:
+                    break;
+                case RETURN_A_BOOK:
+                    break;
+                case SHOW_MY_ISSUED_BOOKS:
+                    break;
+                default:
+                    break;
+            }
         } while (studentChoice != EXIT);
     }
 }
