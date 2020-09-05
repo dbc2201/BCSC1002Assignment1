@@ -9,4 +9,5 @@ package definitions;
 public class Book {
     private String name;
     private String authorName;
+    private String isbn;
 }
