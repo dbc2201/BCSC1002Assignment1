@@ -9,6 +9,7 @@ package execution;
 import definitions.Library;
 import definitions.Student;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class FrontDesk {
@@ -48,6 +49,7 @@ public class FrontDesk {
                 case RETURN_A_BOOK:
                     break;
                 case SHOW_MY_ISSUED_BOOKS:
+                    System.out.println(Arrays.toString(currentStudent.getIssuedBooks()));
                     break;
                 default:
                     break;
