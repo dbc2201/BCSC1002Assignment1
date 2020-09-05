@@ -40,6 +40,8 @@ public class FrontDesk {
             Student currentStudent = new Student(firstName, middleName, lastName, universityRollNumber);
             switch (studentChoice) {
                 case ISSUE_NEW_BOOK:
+                    System.out.println("Enter the isbn number of the book you want to issue: ");
+                    long isbn = scanner.nextLong();
                     break;
                 case RETURN_A_BOOK:
                     break;
