@@ -11,6 +11,9 @@ public class Student {
     private String middleName;
     private String lastName;
     private String fullName;
+    private long universityRollNumber;
+    private int numberOfBooksIssued;
+    private Book[] issuedBooks;
 
     public String getFirstName() {
         return firstName;
