@@ -15,6 +15,22 @@ public class Student {
     private int numberOfBooksIssued;
     private Book[] issuedBooks;
 
+    public Student(String firstName, String middleName, String lastName, long universityRollNumber) {
+        this.firstName = firstName;
+        this.middleName = middleName;
+        this.lastName = lastName;
+        this.universityRollNumber = universityRollNumber;
+        generateFullName(firstName, middleName, lastName);
+    }
+
+    private void generateFullName(String firstName, String middleName, String lastName) {
+        if (middleName.isBlank() || middleName.isEmpty()) {
+            fullName = firstName + " " + lastName;
+        } else {
+            fullName = firstName + " " + middleName + lastName;
+        }
+    }
+
     public long getUniversityRollNumber() {
         return universityRollNumber;
     }
