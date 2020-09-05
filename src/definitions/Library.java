@@ -12,6 +12,10 @@ public class Library {
     private static final int DEFAULT_NUMBER_OF_BOOKS = 1000;
     private Book[] books;
 
+    public Library() {
+        books = new Book[DEFAULT_NUMBER_OF_BOOKS];
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
