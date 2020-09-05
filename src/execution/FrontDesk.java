@@ -6,6 +6,7 @@
  * */
 package execution;
 
+import definitions.Library;
 import definitions.Student;
 
 import java.util.Scanner;
@@ -19,6 +20,7 @@ public class FrontDesk {
 
     public static void main(String[] args) {
         int studentChoice;
+        Library library = new Library();
         do {
             System.out.println("-=-=--=-=-\"Welcome To The Front Desk\"-=-=--=-=-");
             System.out.println("How may I help you today?");
