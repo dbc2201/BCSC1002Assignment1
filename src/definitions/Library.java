@@ -9,6 +9,7 @@ package definitions;
 import java.util.Arrays;
 
 public class Library {
+    private static final int DEFAULT_NUMBER_OF_BOOKS = 1000;
     private Book[] books;
 
     @Override
