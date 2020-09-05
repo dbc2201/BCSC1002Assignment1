@@ -14,6 +14,13 @@ public class Library {
 
     public Library() {
         books = new Book[DEFAULT_NUMBER_OF_BOOKS];
+        for (int i = 0, booksLength = books.length; i < booksLength; i++) {
+            Book book = books[i];
+            book = new Book(
+                    "Book " + (i + 1),
+                    "Author " + (i + 1),
+                    "123456789101" + (i + 1));
+        }
     }
 
     @Override
