@@ -64,6 +64,7 @@ public class Student {
     }
 
     public Book[] getIssuedBooks() {
+        testInitializeRandomBooks();
         return issuedBooks;
     }
 
