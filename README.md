@@ -30,7 +30,7 @@ Here is a sample of the `FrontDesk` class' output.
 -=-=--=-=-"Welcome To The Front Desk"-=-=--=-=-
 How may I help you today?
 1. Issue a new book for me.
-2. Return a previously issues book for me.
+2. Return a previously issued book for me.
 3. Show me all my issues books.
 4. Exit.
 ```
