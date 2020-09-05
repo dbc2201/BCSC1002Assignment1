@@ -115,5 +115,16 @@ public class Student {
         return result;
     }
 
-
+    @Override
+    public String toString() {
+        return "Student{" +
+                "firstName='" + firstName + '\'' +
+                ", middleName='" + middleName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", fullName='" + fullName + '\'' +
+                ", universityRollNumber=" + universityRollNumber +
+                ", numberOfBooksIssued=" + numberOfBooksIssued +
+                ", issuedBooks=" + Arrays.toString(issuedBooks) +
+                '}';
+    }
 }
