@@ -6,6 +6,8 @@
  * */
 package execution;
 
+import definitions.Student;
+
 import java.util.Scanner;
 
 public class FrontDesk {
@@ -26,6 +28,16 @@ public class FrontDesk {
             System.out.println("4. Exit.");
             final Scanner scanner = new Scanner(System.in);
             studentChoice = scanner.nextInt();
+            scanner.nextLine(); // eat the extra \n from the buffer.
+            System.out.println("Please enter your first name: ");
+            String firstName = scanner.nextLine();
+            System.out.println("Please enter your middle name, leave blank if none, just press Enter: ");
+            String middleName = scanner.nextLine();
+            System.out.println("Please enter your last name: ");
+            String lastName = scanner.nextLine();
+            System.out.println("Please enter your university roll number: ");
+            long universityRollNumber = scanner.nextLong();
+            Student currentStudent = new Student(firstName, middleName, lastName, universityRollNumber);
             switch (studentChoice) {
                 case ISSUE_NEW_BOOK:
                     break;
