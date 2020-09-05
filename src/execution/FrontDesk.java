@@ -26,6 +26,6 @@ public class FrontDesk {
             System.out.println("4. Exit.");
             final Scanner scanner = new Scanner(System.in);
             studentChoice = scanner.nextInt();
-        } while (studentChoice != 4);
+        } while (studentChoice != EXIT);
     }
 }
